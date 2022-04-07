@@ -8,7 +8,7 @@ function App() {
     <div>
       {/* <Greet />
 			<Clock /> */}
-      <h1>Hello</h1>
+      <h1>Counter</h1>
       <button onClick={() => dispatch(increment())}>+</button>
       <div>counter:{counter}</div>
     </div>
